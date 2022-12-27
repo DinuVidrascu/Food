@@ -123,7 +123,7 @@ function cards() {
       }
       this.classes = classes;
       this.parent = document.querySelector(parentSelector);
-      this.transfer = 19;
+      this.transfer = 19.50;
       this.changeToLei();
     }
     changeToLei() {
@@ -143,8 +143,8 @@ function cards() {
         <div class="menu__item-descr">${this.descr}</div>
         <div class="menu__item-divider"></div>
           <div class="menu__item-price">
-            <div class="menu__item-cost">Цена:</div>
-            <div class="menu__item-total"><span>${this.price}</span> Lei/день</div>
+            <div class="menu__item-cost">Price:</div>
+            <div class="menu__item-total"><span>${this.price}</span> $/day</div>
           </div>
       `;
       this.parent.append(element);
@@ -635,7 +635,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalTimerId = setTimeout(() => (0,_modules_modals__WEBPACK_IMPORTED_MODULE_1__.openModal)('.modal', modalTimerId), 500000);
   (0,_modules_tabs__WEBPACK_IMPORTED_MODULE_0__["default"])('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
   (0,_modules_modals__WEBPACK_IMPORTED_MODULE_1__["default"])('[data-modal]', '.modal', modalTimerId);
-  (0,_modules_timer__WEBPACK_IMPORTED_MODULE_2__["default"])('.timer', '2023-02-31');
+  (0,_modules_timer__WEBPACK_IMPORTED_MODULE_2__["default"])('.timer', '2023-03-20');
   (0,_modules_cards__WEBPACK_IMPORTED_MODULE_3__["default"])();
   (0,_modules_slides__WEBPACK_IMPORTED_MODULE_6__["default"])({
     container: '.offer__slider',

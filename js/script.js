@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   tabs('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
   modals('[data-modal]', '.modal', modalTimerId);
-  timer('.timer', '2023-02-31');
+  timer('.timer', '2023-03-20');
   cards();
   slides({
     container: '.offer__slider',
